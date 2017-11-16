@@ -5,9 +5,9 @@ MAINTAINER luiz@quelves.com
 ENV ORACLE_HOME=/usr/local/instantclient/
 
 # Oracle instantclient
-ADD ../setup/instantclient-basic-linux.x64-12.1.0.2.0.zip /tmp/
-ADD ../setup/instantclient-sdk-linux.x64-12.1.0.2.0.zip /tmp/
-ADD ../setup/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip /tmp/
+ADD setup/instantclient-basic-linux.x64-12.1.0.2.0.zip /tmp/
+ADD setup/instantclient-sdk-linux.x64-12.1.0.2.0.zip /tmp/
+ADD setup/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip /tmp/
 
 RUN apt-get -y update
 RUN apt-get -y install php5-mysql apache2 libapache2-mod-php5 php-pear unzip libaio1 php5-dev 

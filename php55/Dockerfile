@@ -5,9 +5,9 @@ MAINTAINER luiz@quelves.com
 ENV ORACLE_HOME=/usr/local/instantclient/
 
 # Oracle instantclient
-ADD ../setup/instantclient-basic-linux.x64-12.1.0.2.0.zip /tmp/
-ADD ../setup/instantclient-sdk-linux.x64-12.1.0.2.0.zip /tmp/
-ADD ../setup/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip /tmp/
+ADD setup/instantclient-basic-linux.x64-12.1.0.2.0.zip /tmp/
+ADD setup/instantclient-sdk-linux.x64-12.1.0.2.0.zip /tmp/
+ADD setup/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip /tmp/
 
 
 #metodo 0
