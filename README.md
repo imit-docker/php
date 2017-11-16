@@ -1,6 +1,6 @@
 # Containers para uso general del PHP
 
-## Create image
+## Uso
 
 
 ### Crear la imagen ejecutar 
