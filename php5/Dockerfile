@@ -40,6 +40,7 @@ RUN ln -s /etc/php5/mods-available/oci8.ini /etc/php5/apache2/conf.d/oci8.ini
 RUN service apache2 restart
 
 EXPOSE 80
+EXPOSE 22
 
 CMD apachectl -D FOREGROUND
 
