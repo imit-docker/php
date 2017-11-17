@@ -5,7 +5,7 @@
 
 ### Crear la imagen ejecutar 
 
-```{r, engine='bash', count_lines}
+```javascript
 
 ./build.sh
 
@@ -13,16 +13,16 @@
 
 o el directamente el comando docker que sigue
 
-```{r, engine='bash', count_lines}
+```javascript
 
 docker build --force-rm=true --no-cache=true . -t imit/php:5-apache-oci
 
 ```
-
+	
 
 ### Crear container
 
-```{r, engine='bash', count_lines}
+```javascript
 
 ./run.sh
 
@@ -30,7 +30,7 @@ docker build --force-rm=true --no-cache=true . -t imit/php:5-apache-oci
 
 o directamente el comando docker que sigue
 
-```{r, engine='bash', count_lines}
+```javascript
 
 docker run -d --shm-size=1g  -i -t -p 127.0.0.1:5080:80 -h dc-php5  -v <path-to-app>:/var/www/html -P --name="dc-php5" imit/php:5-apache-oci 
 
